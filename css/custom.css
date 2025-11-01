@@ -57,3 +57,62 @@
     margin: 0;
     line-height: 1.6;
 }
+/* Custom ERP Services Section CSS */
+.custom-erp-services-section {
+    background: #fff;
+}
+
+.custom-section-header .custom-section-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #1a1a1a;
+}
+
+.custom-section-header .custom-section-desc {
+    font-size: 16px;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.custom-service-box {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    padding: 30px;
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.custom-service-box:hover {
+    box-shadow: 0 5px 20px rgba(0, 168, 232, 0.15);
+    border-color: #00A8E8;
+}
+
+.custom-service-icon {
+    width: 60px;
+    height: 60px;
+    background: #00A8E8;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-service-icon i {
+    font-size: 28px;
+    color: #fff;
+}
+
+.custom-service-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.custom-service-desc {
+    font-size: 15px;
+    color: #666;
+    margin: 0;
+    line-height: 1.6;
+}
