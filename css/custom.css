@@ -183,3 +183,81 @@
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 168, 232, 0.3);
 }
+/* ------- */
+/* Custom Hero Section Styling */
+.custom-hero-content {
+    text-align: center;
+}
+
+.custom-hero-subtitle {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1.4;
+}
+
+.custom-hero-title {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.3;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.custom-hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .custom-hero-title {
+        font-size: 32px;
+    }
+    
+    .custom-hero-subtitle {
+        font-size: 16px;
+    }
+    
+    .custom-hero-buttons .btn {
+        padding: 10px 25px !important;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .custom-hero-title {
+        font-size: 26px;
+        line-height: 1.4;
+    }
+    
+    .custom-hero-subtitle {
+        font-size: 14px;
+    }
+    
+    .custom-hero-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .custom-hero-buttons .btn {
+        padding: 12px 30px !important;
+        font-size: 14px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .custom-hero-title {
+        font-size: 22px;
+    }
+    
+    .custom-hero-subtitle {
+        font-size: 13px;
+    }
+    
+    .custom-hero-content {
+        padding: 15px !important;
+    }
+}
